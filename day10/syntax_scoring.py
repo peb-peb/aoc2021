@@ -60,8 +60,4 @@ if __name__ == "__main__":
         txt = file.read()
         chunks = txt.splitlines()
         print(f"part1: {solve1(chunks)}")
-
-    with open("input.txt", 'r') as file:
-        txt = file.read()
-        chunks = txt.splitlines()
         print(f"part2: {solve2(chunks)}")
